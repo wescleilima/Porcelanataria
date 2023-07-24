@@ -1,0 +1,287 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@media screen and (max-width: 600px) and (orientation: landscape) {
+    div {
+        height: 800px;
+        width: 600px;
+    }
+
+}
+
+
+header {
+    margin: 5px 0px 0px 0px;
+    background-color: #BFDDF3;
+    height: 80px;
+
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0000CD;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-left: 40px;
+    border-radius: 20px;
+    background: #D6Dee2;
+    text-decoration: none;
+}
+
+.button-header {
+    background: #f44E3F;
+    border-radius: 20.5px;
+    width: 150px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.cor-fundo {
+    background-color: #ebefed;
+    margin-bottom: 20px;
+}
+
+.logo-image {
+    width: 900px;
+    height: 700px;
+    margin-left: 210px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 40px;
+    color: #515151;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2 {
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #515151;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+/*ul {    ( trocado por carrossel)
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+} 
+
+li {
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: inline-block;
+}  */
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+
+
+
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.prev {
+    left: -20px;
+}
+
+.next {
+    right: -20px;
+}
+
+
+.modelo-produto {
+    width: 200px;
+    height: 180px;
+    margin-top: 10;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: center;
+    font-size: 17px;
+    color: #515151;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #515151;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.sobre-empresa {
+    font-size: 20px;
+    color: #515151;
+    text-align: justify;
+    margin-left: 30px;
+    /* margin-right: 500px; */
+    text-indent: 30px;
+    line-height: 40px;
+}
+
+.sobre-empresa {
+    display: inline-block;
+    width: 600px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.cor-fundo-parceiros {
+    margin-top: 30px;
+    background: #ebefed;
+}
+
+.marcas-parc {
+    font-size: 30px;
+    color: #515151;
+    font-weight: 600;
+    height: 250px;
+
+}
+
+h4 {
+    font-size: 30px;
+    color: #515151;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+iframe {
+    margin-left: 200px;
+    margin-bottom: 25px;
+
+}
+
+.end-empresa {
+    font-size: 20px;
+    color: #515151;
+}
+
+.tel-empresa {
+    font-size: 20px;
+    color: #515151;
+    margin-top: 10px;
+}
+
+.email-empresa {
+    font-size: 20px;
+    color: #515151;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 30px;
+    color: #f44E3F;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+    background: white;
+}
+
+fieldset {
+    height: 545px;
+    width: 700px;
+    margin-left: 250px;
+    border-radius: 15px;
+    background: #DCDCDC;
+    padding: 2px;
+}
+
+form {
+    background: #BFDDF3;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 40px;
+    padding: 20px;
+    /* position: fixed;
+    top: 50%;
+    left: 10%;*/
+
+}
+
+input,
+button {
+    border-radius: 7px;
+    display: inline block;
+    border: 1px solid #ffffff;
+    height: 50px;
+    width: 310px;
+    background: #ebefed;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 17px;
+    text-align: center;
+    font-size: 17px;
+
+}
+
+textarea {
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-bottom: 20px;
+    display: block;
+    height: 100px;
+    width: 665px;
+    border-radius: 7px;
+    border: 1px solid #ffffff;
+    background: #ebefed;
+    font-size: 17px;
+
+
+
+
+}

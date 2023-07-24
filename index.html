@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="./scripts.js"></script>
+    <title>Serramar</title>
+</head>
+
+<body>
+    <header>
+        <a>Home</a>
+        <a href="#servicos" class="link-header">Serviços</a>
+        <a href="#inf" class="link-header">Sobre</a>
+        <a href="#contato" class="link-header">Contato</a>
+        <a href="#orcar"> <button class="button-header">Orçamento</button></a>
+    </header>
+    <main class="cor-fundo">
+        <img src="./imgpor/logoporc.jpg" alt="Porcelanataria-logo" class="logo-image">
+    </main>
+    <h1>Serviços</h1>
+    <h2 id="servicos">Conheça alguns serviços executados por DL Porcelanataria</h2>
+    
+    
+    <div class="carousel-container">
+        <div class="carousel">
+          <img src= "imgpor/bancada-churrasqueira.jpeg" alt="Imagem 1">
+          <img src= "imgpor/bancada-cozinha.jpeg" alt="Imagem 2">
+          <img src= "imgpor/bancada-lavatorio.jpeg" alt="Imagem 3">
+          <img src= "imgpor/banheiro.jpeg" alt="Imagem 4">
+          <img src= "imgpor/lavatorio.jpeg" alt="Imagem 5">
+          <img src= "imgpor/ilha.jpeg" alt="Imagem 6">
+          <img src= "imgpor/pia-fogao.jpeg" alt="Imagem 7">
+          <img src= "imgpor/nicho.jpeg" alt="Imagem 8">
+          <img src= "imgpor/nichos.jpeg" alt="Imagem 9">
+
+        </div>
+    
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+      </div>
+      
+    <h3 id="inf">DL Porcelanatos</h3>
+    <div>
+        <p class="sobre-empresa">
+            A <strong>DL Porcelanatos</strong> atua principalmente na fabricação de peças esculpidas como:
+            bancadas, pias para cozinha, lavatórios, nichos etc. Trabalhamos
+            com total honestidade e competência para a entrega de um serviço
+            diferenciado e com maior requinte, tanto na área comercial como residencial. <br>
+            Atendemos em todo DF e entorno.
+        </p>
+        <img src="./imgpor/sobre.jpg" class="sobre-empresa">
+    </div>
+    <div class="cor-fundo-parceiros">
+        <p class="marcas-parc">Marcas Parceiras</p>
+        <img src="./imgpor/marca.jpg" />
+    </div>
+    <div>
+        <h4 id="contato">Contato</h4>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3223.415316668143!2d-48.27084431073851!3d-15.961601891985561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1682648496303!5m2!1spt-BR!2sbr"
+            width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <p class="end-empresa"> <strong>Endereço</strong>: Rua 133 Santo Antônio</p>
+        <p class="tel-empresa"> <strong>Telefone</strong>: (61)98288-5901</p>
+        <p class="email-empresa"> <strong>E-mail</strong>: serramardl@gmail.com</p>
+    </div>
+    <div class="campo">
+        <h5 id="orcar">Orçamento</h5>
+        <form action="" method="get" enctype="multipart/form-data">
+            <fieldset>
+                <p> <strong>Informe seus dados para contato e orçamento</strong> </p>
+                <label>
+                    <input type="text" autocomplete="street-address" placeholder="Digite seu nome" autofocus required />
+                </label>
+                <label>
+                    <input type="text" placeholder="Digite seu endereço" required />
+                </label>
+                <br />
+                <br />
+                <label>
+                    <input type="tel" placeholder="Digite seu fone" required />
+                </label>
+                <label>
+                    <input type="email" placeholder="Digite seu e-mail" required />
+                </label>
+                <br>
+                <br>
+                <label>
+                    Anexo:
+                    <input type="file" name="foto" />
+                </label>
+                <br />
+                <br />
+                <label>
+                    Observação:
+                    <textarea row="15" type="text" name="text"
+                        placeholder="Favor informar medidas e marcas com modelos do porcelanato desejado se possível com fotos em anexo."></textarea>
+                </label>
+                <button type="reset">Apagar</button>
+                <button type="submit">Enviar dados</button>
+            </fieldset>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
